@@ -6,7 +6,7 @@ namespace Parkeringhus
     {
         static void Main()
         {
-            ParkingHouse parkingHouse = new ParkingHouse(25);
+            ParkingHouse parkingHouse = new ParkingHouse(20);
             ParkingManager manager = new ParkingManager(parkingHouse);
             ParkingAttendant attendant = new ParkingAttendant(parkingHouse);
 
